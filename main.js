@@ -1,8 +1,8 @@
 var x = 0;
 var y = 0;
 function preload(){
-nose=loadImage("https://i.postimg.cc/rwJ1ZLCq/clownnose.png");
-}
+nose=loadImage("https://i.postimg.cc/zBNT0mJp/Moustache.png");
+}g
 
 function setup(){
     canvas=createCanvas(300,300);
@@ -33,9 +33,9 @@ function modelLoaded(){
 
 function draw(){
 image(video,0,0,300,300);
-image(nose,x,y,40,40);
+image(nose,x,y,100,60);
 }
 
 function take_snapshot(){
-    save("CLOWN_Image.png");
+    save("MousetacheImage.png");
 }
